@@ -1,0 +1,942 @@
+/* ============================================================
+   CITYSKY CABS - ENQUIRY PAGE
+   Premium Brand Theme
+
+   Navy       : #0A2855
+   Deep Navy  : #061A38
+   Brand Blue : #123A73
+   Brand Red  : #E51F3F
+   Soft BG    : #EEF3F9
+============================================================ */
+
+
+/* ============================================================
+   PAGE BANNER
+============================================================ */
+
+/* .sisf-banner {
+  position: relative;
+  overflow: hidden;
+  min-height: 330px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  background: #071d3d;
+  border-radius: 22px;
+  box-shadow: 0 16px 45px rgba(6, 26, 56, 0.18);
+}
+
+.sisf-banner .banner-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sisf-banner .banner-img figure {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.sisf-banner .banner-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+
+/* Premium dark brand overlay */
+
+/* .sisf-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(5, 22, 48, 0.94) 0%,
+      rgba(8, 39, 81, 0.83) 45%,
+      rgba(18, 58, 115, 0.66) 100%
+    );
+} */
+
+
+/* Red decorative glow */
+
+.sisf-banner::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+
+  width: 350px;
+  height: 350px;
+
+  top: -200px;
+  right: -70px;
+
+  background: rgba(229, 31, 63, 0.20);
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+
+/* Banner Title */
+
+.sisf-page-title {
+  position: relative !important;
+  z-index: 3;
+
+  min-height: 330px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sisf-page-title .sisf-m-inner {
+  width: 100%;
+}
+
+.sisf-page-title .sisf-m-content {
+  text-align: center;
+}
+
+.sisf-page-title .sisf-m-title {
+  position: relative;
+  display: inline-block;
+
+  margin: 0;
+
+  color: #ffffff !important;
+
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -1px;
+
+  text-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Red underline */
+
+.sisf-page-title .sisf-m-title::after {
+  content: "";
+
+  position: absolute;
+
+  left: 50%;
+  bottom: -17px;
+
+  width: 58px;
+  height: 4px;
+
+  background: #e51f3f;
+
+  border-radius: 20px;
+
+  transform: translateX(-50%);
+}
+
+
+/* ============================================================
+   ENQUIRY SECTION
+============================================================ */
+
+.enquiry-section {
+  position: relative;
+
+  background:
+    radial-gradient(
+      circle at 5% 15%,
+      rgba(18, 58, 115, 0.07),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 95% 85%,
+      rgba(229, 31, 63, 0.055),
+      transparent 25%
+    ),
+    #eef3f9;
+
+  overflow: hidden;
+}
+
+
+/* Decorative circle */
+
+.enquiry-section::before {
+  content: "";
+
+  position: absolute;
+
+  width: 300px;
+  height: 300px;
+
+  left: -190px;
+  top: 100px;
+
+  border: 45px solid rgba(18, 58, 115, 0.035);
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+
+/* ============================================================
+   MAIN ENQUIRY BOX
+============================================================ */
+
+.enquiry-section .enquiry-box {
+  position: relative;
+  z-index: 2;
+
+  max-width: 1120px;
+
+  margin: 0 auto;
+
+  padding: 55px 55px 50px;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(229, 31, 63, 0.15),
+      transparent 27%
+    ),
+    radial-gradient(
+      circle at 0% 100%,
+      rgba(51, 103, 170, 0.18),
+      transparent 28%
+    ),
+    linear-gradient(
+      135deg,
+      #061a38 0%,
+      #092957 48%,
+      #103b75 100%
+    );
+
+  border:
+    1px solid rgba(255, 255, 255, 0.10);
+
+  border-radius: 25px;
+
+  box-shadow:
+    0 25px 60px rgba(5, 27, 58, 0.22);
+}
+
+
+/* Top Red Accent */
+
+.enquiry-section .enquiry-box::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 50%;
+
+  width: 170px;
+  height: 4px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      #e51f3f,
+      transparent
+    );
+
+  transform: translateX(-50%);
+}
+
+
+/* Decorative ring */
+
+.enquiry-section .enquiry-box::after {
+  content: "";
+
+  position: absolute;
+
+  width: 220px;
+  height: 220px;
+
+  right: -120px;
+  bottom: -130px;
+
+  border:
+    35px solid rgba(255, 255, 255, 0.025);
+
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+
+/* ============================================================
+   HEADER
+============================================================ */
+
+.enquiry-box .text-center.mb-5 {
+  position: relative;
+  z-index: 2;
+
+  max-width: 790px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 42px !important;
+}
+
+
+/* CITYSKY CABS */
+
+.enquiry-box .small-title {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 7px 17px;
+
+  margin-bottom: 14px;
+
+  color: #ff4965 !important;
+
+  background: rgba(229, 31, 63, 0.10);
+
+  border:
+    1px solid rgba(229, 31, 63, 0.30);
+
+  border-radius: 50px;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  letter-spacing: 2px;
+}
+
+
+/* Heading */
+
+.enquiry-box .text-center.mb-5 h2 {
+  margin: 3px 0 14px;
+
+  color: #ffffff !important;
+
+  font-size: clamp(27px, 3vw, 39px);
+  line-height: 1.2;
+
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+
+/* Description */
+
+.enquiry-box .text-center.mb-5 p {
+  max-width: 760px;
+
+  margin: 0 auto;
+
+  color: #b9cbe1 !important;
+
+  font-size: 14px;
+  line-height: 1.85;
+
+  font-weight: 400;
+}
+
+
+/* ============================================================
+   FORM AREA
+============================================================ */
+
+.enquiry-box form {
+  position: relative;
+  z-index: 3;
+
+  padding: 34px;
+
+  background: rgba(5, 22, 48, 0.42);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.08);
+
+  border-radius: 18px;
+
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+
+/* ============================================================
+   INPUTS / SELECT / TEXTAREA
+============================================================ */
+
+.enquiry-box .form-control,
+.enquiry-box .form-select {
+  width: 100%;
+
+  min-height: 57px;
+
+  padding: 13px 17px;
+
+  color: #ffffff;
+
+  background-color: rgba(255, 255, 255, 0.075);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.15);
+
+  border-radius: 11px;
+
+  outline: none;
+
+  font-size: 13.5px;
+  font-weight: 500;
+
+  box-shadow: none;
+
+  transition:
+    border-color 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}
+
+
+/* Placeholder */
+
+.enquiry-box .form-control::placeholder {
+  color: #aabbd0;
+  opacity: 1;
+}
+
+
+/* Hover */
+
+.enquiry-box .form-control:hover,
+.enquiry-box .form-select:hover {
+  background-color: rgba(255, 255, 255, 0.10);
+
+  border-color:
+    rgba(255, 255, 255, 0.26);
+}
+
+
+/* Focus */
+
+.enquiry-box .form-control:focus,
+.enquiry-box .form-select:focus {
+  color: #ffffff;
+
+  background-color: rgba(255, 255, 255, 0.115);
+
+  border-color: #e51f3f;
+
+  box-shadow:
+    0 0 0 3px rgba(229, 31, 63, 0.12),
+    0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ============================================================
+   SELECT
+============================================================ */
+
+.enquiry-box .form-select {
+  cursor: pointer;
+
+  color: #dbe6f4;
+
+  /* Custom white dropdown arrow */
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3E%3C/svg%3E");
+
+  background-repeat: no-repeat;
+
+  background-position:
+    right 16px center;
+
+  background-size: 13px 13px;
+
+  padding-right: 45px;
+}
+
+
+/* Dropdown options need dark text/background */
+
+.enquiry-box .form-select option,
+.enquiry-box .form-select optgroup {
+  color: #172a47;
+  background: #ffffff;
+}
+
+.enquiry-box .form-select optgroup {
+  font-weight: 700;
+}
+
+
+/* ============================================================
+   DATE / TIME
+============================================================ */
+
+.enquiry-box input[type="date"],
+.enquiry-box input[type="time"] {
+  color-scheme: dark;
+
+  cursor: pointer;
+}
+
+.enquiry-box input[type="date"]::-webkit-calendar-picker-indicator,
+.enquiry-box input[type="time"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+
+  opacity: 0.85;
+}
+
+
+/* ============================================================
+   TEXTAREA
+============================================================ */
+
+.enquiry-box textarea.form-control {
+  min-height: 135px;
+
+  padding: 16px 18px;
+
+  line-height: 1.7;
+
+  resize: vertical;
+}
+
+
+/* ============================================================
+   BOOTSTRAP COLUMN SPACING
+============================================================ */
+
+.enquiry-box .row {
+  --bs-gutter-x: 1.25rem;
+}
+
+.enquiry-box .mb-4 {
+  margin-bottom: 18px !important;
+}
+
+
+/* ============================================================
+   SUBMIT BUTTON
+============================================================ */
+
+.enquiry-box .btn-danger {
+  position: relative;
+
+  min-width: 255px;
+  min-height: 56px;
+
+  padding: 14px 30px !important;
+
+  overflow: hidden;
+
+  color: #ffffff !important;
+
+  background:
+    linear-gradient(
+      135deg,
+      #e51f3f 0%,
+      #c31431 100%
+    ) !important;
+
+  border: 1px solid #e51f3f !important;
+
+  border-radius: 50px !important;
+
+  font-size: 14px;
+  font-weight: 700 !important;
+
+  letter-spacing: 0.2px;
+
+  box-shadow:
+    0 10px 25px rgba(229, 31, 63, 0.28);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+
+/* Button shine */
+
+.enquiry-box .btn-danger::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: -100%;
+
+  width: 60%;
+  height: 100%;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.22),
+      transparent
+    );
+
+  transform: skewX(-20deg);
+
+  transition: left 0.55s ease;
+}
+
+
+.enquiry-box .btn-danger:hover {
+  background:
+    linear-gradient(
+      135deg,
+      #f12848 0%,
+      #d41535 100%
+    ) !important;
+
+  border-color: #f12848 !important;
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 14px 32px rgba(229, 31, 63, 0.36);
+}
+
+.enquiry-box .btn-danger:hover::before {
+  left: 140%;
+}
+
+
+.enquiry-box .btn-danger:active {
+  transform: translateY(-1px);
+}
+
+
+.enquiry-box .btn-danger:focus {
+  box-shadow:
+    0 0 0 4px rgba(229, 31, 63, 0.16),
+    0 12px 28px rgba(229, 31, 63, 0.30) !important;
+}
+
+
+/* Disabled / Sending */
+
+.enquiry-box .btn-danger:disabled {
+  opacity: 0.7;
+
+  cursor: not-allowed;
+
+  transform: none;
+}
+
+
+/* Paper Plane */
+
+.enquiry-box .btn-danger .fa-paper-plane {
+  font-size: 13px;
+}
+
+
+/* Spinner */
+
+.enquiry-box .spinner-border {
+  width: 16px;
+  height: 16px;
+
+  border-width: 2px;
+}
+
+
+/* ============================================================
+   SUCCESS / ERROR MESSAGES
+============================================================ */
+
+.enquiry-box .alert {
+  margin: 5px auto 0;
+
+  max-width: 760px;
+
+  padding: 16px 20px;
+
+  border-radius: 12px !important;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  line-height: 1.7;
+}
+
+
+/* Success */
+
+.enquiry-box .alert-success {
+  color: #d9ffeb;
+
+  background:
+    rgba(30, 168, 96, 0.15);
+
+  border:
+    1px solid rgba(52, 211, 125, 0.30);
+}
+
+.enquiry-box .alert-success i {
+  color: #45dc8a;
+}
+
+
+/* Error */
+
+.enquiry-box .alert-danger {
+  color: #ffe0e4;
+
+  background:
+    rgba(229, 31, 63, 0.15);
+
+  border:
+    1px solid rgba(229, 31, 63, 0.35);
+}
+
+.enquiry-box .alert-danger i {
+  color: #ff506a;
+}
+
+
+/* ============================================================
+   AUTOFILL FIX
+   Prevent Chrome autofill from turning fields bright white
+============================================================ */
+
+.enquiry-box input:-webkit-autofill,
+.enquiry-box input:-webkit-autofill:hover,
+.enquiry-box input:-webkit-autofill:focus,
+.enquiry-box textarea:-webkit-autofill,
+.enquiry-box select:-webkit-autofill {
+  -webkit-text-fill-color: #ffffff;
+
+  -webkit-box-shadow:
+    0 0 0 1000px #12335e inset;
+
+  transition:
+    background-color 5000s ease-in-out 0s;
+
+  caret-color: #ffffff;
+}
+
+
+/* ============================================================
+   TABLET
+============================================================ */
+
+@media (max-width: 991px) {
+
+  .sisf-banner {
+    min-height: 280px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    border-radius: 18px;
+  }
+
+  .sisf-page-title {
+    min-height: 280px;
+  }
+
+  .enquiry-section .enquiry-box {
+    padding: 42px 32px;
+  }
+
+  .enquiry-box form {
+    padding: 28px 24px;
+  }
+
+}
+
+
+/* ============================================================
+   MOBILE
+============================================================ */
+
+@media (max-width: 767px) {
+
+  .sisf-banner {
+    min-height: 230px;
+
+    margin-left: 8px;
+    margin-right: 8px;
+
+    border-radius: 14px;
+  }
+
+  .sisf-page-title {
+    min-height: 230px;
+  }
+
+  .sisf-page-title .sisf-m-title {
+    font-size: 38px;
+  }
+
+
+  /* Section */
+
+  .enquiry-section {
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;
+  }
+
+
+  /* Main Box */
+
+  .enquiry-section .enquiry-box {
+    padding:
+      34px 18px 24px;
+
+    border-radius: 18px;
+  }
+
+
+  /* Header */
+
+  .enquiry-box .text-center.mb-5 {
+    margin-bottom: 30px !important;
+  }
+
+  .enquiry-box .text-center.mb-5 h2 {
+    font-size: 27px;
+  }
+
+  .enquiry-box .text-center.mb-5 p {
+    font-size: 13px;
+
+    line-height: 1.75;
+  }
+
+
+  /* Form */
+
+  .enquiry-box form {
+    padding:
+      22px 16px;
+
+    border-radius: 14px;
+  }
+
+  .enquiry-box .form-control,
+  .enquiry-box .form-select {
+    min-height: 54px;
+
+    font-size: 13px;
+  }
+
+  .enquiry-box textarea.form-control {
+    min-height: 120px;
+  }
+
+
+  /* Button */
+
+  .enquiry-box .btn-danger {
+    width: 100%;
+
+    min-width: 0;
+  }
+
+}
+
+
+/* ============================================================
+   SMALL MOBILE
+============================================================ */
+
+@media (max-width: 480px) {
+
+  .sisf-banner {
+    min-height: 200px;
+  }
+
+  .sisf-page-title {
+    min-height: 200px;
+  }
+
+  .sisf-page-title .sisf-m-title {
+    font-size: 32px;
+  }
+
+  .enquiry-section .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .enquiry-section .enquiry-box {
+    padding:
+      30px 13px 18px;
+
+    border-radius: 15px;
+  }
+
+  .enquiry-box .small-title {
+    padding:
+      6px 13px;
+
+    font-size: 10px;
+  }
+
+  .enquiry-box .text-center.mb-5 h2 {
+    font-size: 24px;
+
+    line-height: 1.3;
+  }
+
+  .enquiry-box .text-center.mb-5 p {
+    font-size: 12.5px;
+  }
+
+  .enquiry-box form {
+    padding:
+      18px 12px;
+  }
+
+  .enquiry-box .form-control,
+  .enquiry-box .form-select {
+    min-height: 52px;
+
+    padding-left: 14px;
+
+    border-radius: 9px;
+  }
+
+  .enquiry-box .btn-danger {
+    min-height: 53px;
+
+    padding:
+      12px 16px !important;
+
+    font-size: 13px;
+  }
+
+}
+
+
+/* ============================================================
+   LARGE DESKTOP
+============================================================ */
+
+@media (min-width: 1400px) {
+
+  .enquiry-section .enquiry-box {
+    max-width: 1180px;
+  }
+
+}

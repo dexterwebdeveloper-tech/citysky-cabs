@@ -1,0 +1,603 @@
+/* =========================================
+   CITYSKY CABS - SERVICES
+========================================= */
+
+.services-section {
+  background: #f5faff;
+  padding: 65px 0;
+  overflow: hidden;
+}
+
+/* =========================================
+   BANNER
+========================================= */
+
+.services-banner {
+  position: relative;
+  padding: 80px 20px;
+  background: linear-gradient(
+    135deg,
+    #eaf8ff 0%,
+    #d8f1ff 55%,
+    #f8fcff 100%
+  );
+  overflow: hidden;
+}
+
+.services-shape {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.services-shape-one {
+  width: 330px;
+  height: 330px;
+  left: -150px;
+  top: -170px;
+  background: rgba(255, 121, 0, 0.1);
+}
+
+.services-shape-two {
+  width: 420px;
+  height: 420px;
+  right: -190px;
+  bottom: -270px;
+  background: rgba(0, 145, 210, 0.08);
+}
+
+.services-banner-content {
+  position: relative;
+  z-index: 2;
+  max-width: 850px;
+  margin: auto;
+  text-align: center;
+}
+
+.services-tag {
+  display: inline-block;
+  background: #ffffff;
+  color: #D91F36;
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  margin-bottom: 14px;
+  box-shadow: 0 5px 20px rgba(30, 100, 140, 0.08);
+}
+
+.services-banner h1 {
+  color: #123f59;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0 0 12px;
+}
+
+.services-banner h1 span {
+  color: #078dcc;
+}
+
+.services-banner p {
+  color: #5e7785;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* =========================================
+   HEADING
+========================================= */
+
+.services-heading {
+  max-width: 850px;
+  margin: 0 auto 42px;
+  text-align: center;
+}
+
+.services-label {
+  display: inline-block;
+  color: #D91F36;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.4px;
+  margin-bottom: 9px;
+}
+
+.services-heading h2 {
+  color: #123f59;
+  font-size: 32px;
+  line-height: 1.3;
+  font-weight: 800;
+  margin: 0 0 12px;
+}
+
+.services-heading h2 span {
+  color: #078dcc;
+}
+
+.services-heading p {
+  color: #687f8c;
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* =========================================
+   SERVICE CARD
+========================================= */
+
+.service-cardd {
+  height: 100%;
+  background: #ffffff;
+  border-radius: 17px;
+  overflow: hidden;
+  border: 1px solid #deedf4;
+  box-shadow: 0 8px 28px rgba(25, 95, 130, 0.08);
+  transition: all 0.35s ease;
+}
+
+.service-cardd:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 16px 38px rgba(25, 95, 130, 0.14);
+}
+
+.service-card-orange {
+  border-top: 4px solid #D91F36;
+}
+
+.service-card-blue {
+  border-top: 4px solid #078dcc;
+}
+
+/* =========================================
+   SERVICE IMAGE
+========================================= */
+
+.service-image {
+  height: 215px;
+  position: relative;
+  overflow: hidden;
+  background: #e7f7ff;
+}
+
+.service-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(0, 0, 0, 0.32)
+  );
+  pointer-events: none;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.45s ease;
+}
+
+.service-card:hover .service-image img {
+  transform: scale(1.07);
+}
+
+/* =========================================
+   CATEGORY
+========================================= */
+
+.service-category {
+  position: absolute;
+  z-index: 2;
+  left: 13px;
+  bottom: 13px;
+  background: #D91F36;
+  color: #ffffff;
+  padding: 7px 12px;
+  border-radius: 20px;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.service-card-blue .service-category {
+  background: #078dcc;
+}
+
+/* =========================================
+   NUMBER
+========================================= */
+
+.service-number {
+  position: absolute;
+  z-index: 3;
+  top: 12px;
+  right: 12px;
+  width: 37px;
+  height: 37px;
+  background: #ffffff;
+  color: #123f59;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 800;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* =========================================
+   SERVICE CONTENT
+========================================= */
+
+.service-content {
+  padding: 19px;
+}
+
+.service-content h3 {
+  color: #143f55;
+  font-size: 19px;
+  line-height: 1.35;
+  font-weight: 800;
+  margin: 0 0 9px;
+}
+
+.service-content > p {
+  color: #718590;
+  font-size: 14.5px;
+  line-height: 1.72;
+  margin: 0 0 15px;
+}
+
+/* =========================================
+   ROUTE INFORMATION
+========================================= */
+
+.service-route {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7px;
+  margin-bottom: 13px;
+}
+
+.route-item {
+  padding: 9px 10px;
+  border-radius: 8px;
+  background: #f2faff;
+  border: 1px solid #e1eff6;
+}
+
+.route-item span {
+  display: block;
+  color: #8a9da6;
+  font-size: 8px;
+  margin-bottom: 3px;
+}
+
+.route-item strong {
+  display: block;
+  color: #255166;
+  font-size: 9px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.service-footer {
+  border-top: 1px solid #e7f0f4;
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.service-footer span {
+  color: #657d89;
+  font-size: 8px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.service-footer i {
+  color: #D91F36;
+  margin-right: 4px;
+}
+
+.service-card-blue .service-footer i {
+  color: #078dcc;
+}
+
+/* =========================================
+   BOTTOM INFORMATION
+========================================= */
+
+.services-info {
+  margin-top: 48px;
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  border: 1px solid #dceef6;
+  box-shadow: 0 8px 30px rgba(25, 95, 130, 0.08);
+}
+
+.services-info-image {
+  width: 38%;
+  min-height: 275px;
+}
+
+.services-info-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.services-info-content {
+  flex: 1;
+  padding: 32px 36px;
+}
+
+.services-info-content > span {
+  color: #D91F36;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+}
+
+.services-info-content h2 {
+  color: #123f59;
+  font-size: 26px;
+  line-height: 1.3;
+  font-weight: 800;
+  margin: 7px 0 11px;
+}
+
+.services-info-content h2 strong {
+  color: #078dcc;
+}
+
+.services-info-content > p {
+  color: #687f8c;
+  font-size: 11px;
+  line-height: 1.75;
+  margin: 0 0 18px;
+}
+
+.services-points {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 11px;
+}
+
+.services-points div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #315667;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.services-points i {
+  color: #D91F36;
+  font-size: 13px;
+}
+
+.services-points div:nth-child(even) i {
+  color: #078dcc;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+  .services-banner {
+    padding: 65px 20px;
+  }
+
+  .services-banner h1 {
+    font-size: 37px;
+  }
+
+  .services-section {
+    padding: 50px 0;
+  }
+
+  .services-heading h2 {
+    font-size: 28px;
+  }
+
+  .service-image {
+    height: 190px;
+  }
+
+  .service-content {
+    padding: 16px;
+  }
+
+  .service-content h3 {
+    font-size: 17px;
+  }
+
+  .service-footer span {
+    font-size: 7px;
+  }
+
+  .services-info-content {
+    padding: 25px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+  .services-section {
+    padding: 35px 0;
+  }
+
+  .services-banner {
+    padding: 50px 15px;
+  }
+
+  .services-banner h1 {
+    font-size: 29px;
+  }
+
+  .services-banner p {
+    font-size: 11px;
+  }
+
+  .services-heading {
+    margin-bottom: 28px;
+  }
+
+  .services-heading h2 {
+    font-size: 23px;
+  }
+
+  .services-heading p {
+    font-size: 11px;
+    line-height: 1.7;
+  }
+
+  .service-image {
+    height: 205px;
+  }
+
+  .service-content {
+    padding: 16px;
+  }
+
+  .service-content h3 {
+    font-size: 19px;
+  }
+
+  .service-content > p {
+    font-size: 10px;
+    line-height: 1.7;
+  }
+
+  .route-item {
+    padding: 8px;
+  }
+
+  .route-item span {
+    font-size: 7px;
+  }
+
+  .route-item strong {
+    font-size: 8px;
+  }
+
+  .service-footer span {
+    font-size: 8px;
+  }
+
+  /* Bottom info */
+
+  .services-info {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .services-info-image {
+    width: 100%;
+    height: 190px;
+    min-height: auto;
+  }
+
+  .services-info-content {
+    padding: 20px;
+  }
+
+  .services-info-content h2 {
+    font-size: 21px;
+  }
+
+  .services-info-content > p {
+    font-size: 10px;
+    line-height: 1.65;
+  }
+
+  .services-points {
+    gap: 9px;
+  }
+
+  .services-points div {
+    font-size: 8px;
+  }
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 420px) {
+  .services-banner {
+    padding: 40px 12px;
+  }
+
+  .services-banner h1 {
+    font-size: 25px;
+  }
+
+  .services-heading h2 {
+    font-size: 20px;
+  }
+
+  .services-heading p {
+    font-size: 10px;
+  }
+
+  .service-image {
+    height: 180px;
+  }
+
+  .service-content {
+    padding: 14px;
+  }
+
+  .service-content h3 {
+    font-size: 17px;
+  }
+
+  .service-content > p {
+    font-size: 9px;
+  }
+
+  .service-footer span {
+    font-size: 7px;
+  }
+
+  .service-footer i {
+    margin-right: 2px;
+  }
+
+  .services-info-image {
+    height: 160px;
+  }
+
+  .services-info-content {
+    padding: 17px;
+  }
+
+  .services-info-content h2 {
+    font-size: 18px;
+  }
+
+  .services-points {
+    grid-template-columns: 1fr;
+    gap: 7px;
+  }
+}
