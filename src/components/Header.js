@@ -73,6 +73,9 @@ const Header = () => {
                     <a href="https://in.pinterest.com/" target="_blank" rel="noreferrer">
                       <i className="fab fa-pinterest-p text-white"></i>
                     </a>
+  <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+    <i className="fab fa-youtube text-white"></i>
+  </a>
 
                    
                   </li>

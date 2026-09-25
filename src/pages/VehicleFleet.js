@@ -60,6 +60,31 @@ const VehicleFleet = () => {
     fuel: "Diesel",
   },
 
+  {
+  image: "/images/fleet/Tempo-Traveller.jpg",
+  type: "Tempo Traveller",
+  name: "Tempo Traveller",
+  description:
+    "A comfortable Tempo Traveller ideal for group tours, family trips, pilgrimage journeys, corporate outings, airport transfers and outstation travel.",
+  luggage: "8 Bags",
+  persons: "12+1 Seats",
+  fuel: "Diesel",
+},
+
+  {
+  image: "/images/fleet/Urbania-Bus.jpg",
+  type: "Luxury Van",
+  name: "Force Urbania",
+  description:
+    "A premium and spacious Force Urbania designed for family tours, corporate travel, group outings, airport transfers and comfortable long-distance journeys.",
+  luggage: "6 Bags",
+  persons: "16+1 Seats",
+  fuel: "Diesel",
+},
+
+
+
+
 ];
 
   return (
