@@ -30,10 +30,10 @@ const galleryData = [
   id: 9,
   image: "/images/gallery/9.jpeg",
 },
-{
-  id: 7,
-  image: "/images/gallery/7.jpeg",
-},
+// {
+//   id: 7,
+//   image: "/images/gallery/7.jpeg",
+// },
 {
   id: 8,
   image: "/images/gallery/8.jpeg",

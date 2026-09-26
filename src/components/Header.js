@@ -58,22 +58,22 @@ const Header = () => {
 
                   {/* Social Media Links */}
                   <li className="d-flex gap-3">
-                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+                    <a href="https://www.instagram.com/cityskycabs/" target="_blank" rel="noreferrer">
                       <i className="fab fa-instagram text-white"></i>
                     </a>
 
-                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                    <a href="https://www.facebook.com/profile.php?id=61594698214899" target="_blank" rel="noreferrer">
                       <i className="fab fa-facebook-f text-white"></i>
                     </a>
 
-                    <a href="https://x.com/" target="_blank" rel="noreferrer">
+                    <a href="https://x.com/cityskycabs" target="_blank" rel="noreferrer">
                       <i className="fab fa-twitter text-white"></i>
                     </a>
 
-                    <a href="https://in.pinterest.com/" target="_blank" rel="noreferrer">
+                    <a href="https://in.pinterest.com/cityskycabs1/" target="_blank" rel="noreferrer">
                       <i className="fab fa-pinterest-p text-white"></i>
                     </a>
-  <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+  <a href="https://youtu.be/u1GAphSZViw" target="_blank" rel="noreferrer">
     <i className="fab fa-youtube text-white"></i>
   </a>
 
