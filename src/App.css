@@ -5625,3 +5625,688 @@ ul{
     text-align: center !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================
+   CITYSKY FLEET VEHICLE INFORMATION
+====================================== */
+
+.citysky-fleet-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.citysky-fleet-feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  min-height: 65px;
+  padding: 10px 12px;
+
+  background: #f7f9fc;
+  border: 1px solid #e8edf5;
+  border-radius: 10px;
+
+  transition: all 0.3s ease;
+}
+
+.citysky-fleet-feature:last-child {
+  grid-column: 1 / -1;
+}
+
+.citysky-fleet-feature:hover {
+  border-color: rgba(15, 48, 112, 0.25);
+  background: #f2f6ff;
+}
+
+.citysky-feature-icon {
+  flex: 0 0 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 38px;
+  height: 38px;
+
+  color: #0f3070;
+  font-size: 15px;
+
+  background: #e8efff;
+  border-radius: 8px;
+}
+
+.citysky-feature-label {
+  display: block;
+
+  margin-bottom: 2px;
+
+  color: #7c8494;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.citysky-fleet-feature strong {
+  display: block;
+
+  color: #102b61;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Availability */
+
+.citysky-availability {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-top: 12px;
+  padding: 12px 15px;
+
+  background: linear-gradient(
+    135deg,
+    #0b2861 0%,
+    #123d82 100%
+  );
+
+  border-radius: 10px;
+}
+
+.availability-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 35px;
+  height: 35px;
+
+  color: #ffffff;
+  font-size: 16px;
+
+  background: #e31e24;
+  border-radius: 50%;
+}
+
+.citysky-availability small {
+  display: block;
+
+  margin-bottom: 1px;
+
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 10px;
+}
+
+.citysky-availability strong {
+  display: block;
+
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Vehicle card */
+
+.sisf-vehicle-list-item .sisf-e-inner {
+  height: 100%;
+}
+
+.vehicle-swiper .swiper-slide {
+  height: auto;
+}
+
+.vehicle-swiper .sisf-vehicle-list-item {
+  height: 100%;
+}
+
+/* Vehicle image */
+
+.sisf-vehicle-image figure {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.sisf-vehicle-image img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+
+  transition: transform 0.5s ease;
+}
+
+.sisf-vehicle-list-item:hover .sisf-vehicle-image img {
+  transform: scale(1.04);
+}
+
+/* Responsive */
+
+@media (max-width: 575px) {
+  .citysky-fleet-features {
+    grid-template-columns: 1fr;
+  }
+
+  .citysky-fleet-feature:last-child {
+    grid-column: auto;
+  }
+
+  .sisf-vehicle-image img {
+    height: 220px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.citysky-google-logo {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+.citysky-google-logo img {
+  width: 42px;
+  height: 42px;
+
+  display: block;
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   CITYSKY CABS CORPORATE ENQUIRY
+========================================================== */
+
+.citysky-corporate-enquiry {
+  position: relative;
+  overflow: hidden;
+
+  margin-bottom: 45px;
+
+  background: #ffffff;
+
+  border: 1px solid #e4eaf2;
+  border-radius: 22px;
+
+  box-shadow: 0 18px 55px rgba(7, 26, 53, 0.12);
+}
+
+
+/* ==========================================================
+   LEFT SIDE
+========================================================== */
+
+.citysky-corporate-info {
+  position: relative;
+
+  height: 100%;
+
+  padding: 35px 30px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #071a35 0%,
+      #0b2c59 55%,
+      #123a73 100%
+    );
+
+  color: #ffffff;
+}
+
+
+.citysky-corporate-info::after {
+  content: "";
+
+  position: absolute;
+
+  width: 180px;
+  height: 180px;
+
+  right: -80px;
+  bottom: -80px;
+
+  background: rgba(229, 31, 63, 0.12);
+
+  border-radius: 50%;
+}
+
+
+/* LOGO */
+
+.citysky-corporate-logo-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 25px;
+
+  padding: 10px 15px;
+
+  background: #ffffff;
+
+  border-radius: 10px;
+}
+
+
+.citysky-corporate-logo {
+  width: 145px;
+  height: auto;
+
+  display: block;
+}
+
+
+/* SMALL TITLE */
+
+.citysky-corporate-small-title {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #ef2948;
+
+  font-size: 12px;
+  font-weight: 800;
+
+  letter-spacing: 1.8px;
+}
+
+
+/* TITLE */
+
+.citysky-corporate-info h2 {
+  margin-bottom: 15px;
+
+  color: #ffffff;
+
+  font-size: 36px;
+  line-height: 1.15;
+  font-weight: 800;
+}
+
+
+.citysky-corporate-info > p {
+  margin-bottom: 28px;
+
+  color: rgba(255, 255, 255, 0.76);
+
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+
+/* FEATURES */
+
+.citysky-corporate-feature {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+
+  gap: 13px;
+
+  margin-top: 17px;
+}
+
+
+.citysky-corporate-feature > i {
+  width: 43px;
+  height: 43px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  background: rgba(255, 255, 255, 0.09);
+
+  color: #ef2948;
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 9px;
+}
+
+
+.citysky-corporate-feature strong {
+  display: block;
+
+  color: #ffffff;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
+.citysky-corporate-feature span {
+  display: block;
+
+  margin-top: 2px;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 11px;
+}
+
+
+/* ==========================================================
+   RIGHT FORM
+========================================================== */
+
+.citysky-corporate-form-box {
+  height: 100%;
+
+  padding: 38px 35px;
+
+  background: #f5f8fc;
+}
+
+
+/* HEADING */
+
+.citysky-corporate-form-heading {
+  margin-bottom: 25px;
+}
+
+
+.citysky-corporate-form-heading > span {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #e51f3f;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  letter-spacing: 1.6px;
+}
+
+
+.citysky-corporate-form-heading h3 {
+  margin: 0 0 7px;
+
+  color: #071a35;
+
+  font-size: 27px;
+  font-weight: 800;
+}
+
+
+.citysky-corporate-form-heading p {
+  margin: 0;
+
+  color: #687386;
+
+  font-size: 13px;
+}
+
+
+/* ==========================================================
+   FIELDS
+========================================================== */
+
+.citysky-corporate-field {
+  position: relative;
+}
+
+
+.citysky-corporate-field > i {
+  position: absolute;
+
+  top: 50%;
+  left: 16px;
+
+  z-index: 2;
+
+  transform: translateY(-50%);
+
+  color: #e51f3f;
+
+  font-size: 13px;
+
+  pointer-events: none;
+}
+
+
+.citysky-corporate-field input,
+.citysky-corporate-field select,
+.citysky-corporate-field textarea {
+  width: 100%;
+
+  background: #ffffff;
+
+  color: #071a35;
+
+  border: 1px solid #dce4ee;
+  border-radius: 9px;
+
+  outline: none;
+
+  font-size: 13px;
+
+  transition: all 0.25s ease;
+}
+
+
+.citysky-corporate-field input,
+.citysky-corporate-field select {
+  height: 52px;
+
+  padding: 0 15px 0 43px;
+}
+
+
+.citysky-corporate-field select {
+  cursor: pointer;
+
+  appearance: auto;
+}
+
+
+.citysky-corporate-field textarea {
+  min-height: 95px;
+
+  padding: 15px 15px 15px 43px;
+
+  resize: vertical;
+}
+
+
+.citysky-corporate-textarea > i {
+  top: 19px;
+
+  transform: none;
+}
+
+
+.citysky-corporate-field input::placeholder,
+.citysky-corporate-field textarea::placeholder {
+  color: #929cab;
+}
+
+
+.citysky-corporate-field input:focus,
+.citysky-corporate-field select:focus,
+.citysky-corporate-field textarea:focus {
+  border-color: #e51f3f;
+
+  box-shadow:
+    0 0 0 3px rgba(229, 31, 63, 0.08);
+}
+
+
+/* ==========================================================
+   WHATSAPP SUBMIT
+========================================================== */
+
+.citysky-corporate-submit {
+  min-height: 52px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  padding: 0 25px;
+
+  background: #e51f3f;
+
+  color: #ffffff;
+
+  border: 0;
+  border-radius: 9px;
+
+  font-size: 13px;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+
+.citysky-corporate-submit .fa-whatsapp {
+  font-size: 19px;
+}
+
+
+.citysky-corporate-submit:hover {
+  background: #071a35;
+
+  color: #ffffff;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 25px rgba(7, 26, 53, 0.18);
+}
+
+
+.citysky-corporate-submit .fa-arrow-right {
+  transition: transform 0.3s ease;
+}
+
+
+.citysky-corporate-submit:hover .fa-arrow-right {
+  transform: translateX(4px);
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media (max-width: 991px) {
+
+  .citysky-corporate-info {
+    padding: 30px 25px;
+  }
+
+
+  .citysky-corporate-form-box {
+    padding: 30px 25px;
+  }
+
+
+  .citysky-corporate-info h2 {
+    font-size: 30px;
+  }
+
+}
+
+
+@media (max-width: 767px) {
+
+  .citysky-corporate-enquiry {
+    border-radius: 15px;
+  }
+
+
+  .citysky-corporate-info {
+    padding: 28px 20px;
+  }
+
+
+  .citysky-corporate-form-box {
+    padding: 28px 20px;
+  }
+
+
+  .citysky-corporate-logo {
+    width: 125px;
+  }
+
+
+  .citysky-corporate-info h2 {
+    font-size: 27px;
+  }
+
+
+  .citysky-corporate-form-heading h3 {
+    font-size: 23px;
+  }
+
+
+  .citysky-corporate-submit {
+    width: 100%;
+  }
+
+}

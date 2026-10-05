@@ -10,6 +10,7 @@ import Testimonials from '../pages/Testimonials';
 import FAQ from '../pages/FAQ';
 import LatestBlogs from '../pages/LatestBlogs';
 import VideoSlider from './VideoSlider';
+import CorporateTransportation from '../pages/CorporateTransportation';
 
 
 
@@ -28,6 +29,8 @@ const HeroSection = () => {
              <WhatWeDo/>
              <Testimonials/>
              <FAQ/>
+             <CorporateTransportation/>
+
              <LatestBlogs/>
     </div>
   );

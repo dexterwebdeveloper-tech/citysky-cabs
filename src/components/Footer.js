@@ -540,7 +540,8 @@ const Footer = () => {
             <div className="row align-items-center row-gap-3 text-center">
               <div className="col-12">
                   <p className="copyright-text text-white">
-              All Rights Reserved &copy;  <span className="darkcolorrr">Citysky Cabs</span> <span id="date">{new Date().getFullYear()}</span>{' '}
+              All Rights Reserved &copy;  <span className="darkcolorrr">Citysky Ventures OPC Private Limited
+</span> <span id="date">{new Date().getFullYear()}</span>{' '}
                 <span href="#"> Developed By </span> <a href="https://www.dexterintelligence.com/" className='d-inline' target="_blank" rel="noopener noreferrer">
                 <span className="darkcolorrr">&nbsp;Dexter Intelligence</span>
               </a> | Hosted By <a href="https://www.urvahosting.com/" className='d-inline ' target="_blank" rel="noopener noreferrer">
