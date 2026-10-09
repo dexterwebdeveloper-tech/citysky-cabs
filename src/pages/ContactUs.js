@@ -133,7 +133,7 @@ Thank you.`;
                 <div className="citysky-quick-contact">
 
                   <a
-                    href="tel:+918554819191"
+                    href="tel:+919272112191 "
                     className="citysky-quick-row"
                   >
                     <div className="citysky-quick-icon">
@@ -142,7 +142,7 @@ Thank you.`;
 
                     <div>
                       <small>Call Us</small>
-                      <strong>+91 8554819191</strong>
+                      <strong>+91 9272112191</strong>
                     </div>
 
                     <i className="fa-solid fa-arrow-right citysky-arrow"></i>
@@ -151,7 +151,7 @@ Thank you.`;
 
                   {/* PHONE 2 */}
                   <a
-                    href="tel:+919272112191"
+                    href="tel:+918459883515"
                     className="citysky-quick-row"
                   >
                     <div className="citysky-quick-icon">
@@ -160,7 +160,7 @@ Thank you.`;
 
                     <div>
                       <small>Alternate Number</small>
-                      <strong>+91 9272112191</strong>
+                      <strong>+91 8459883515</strong>
                     </div>
 
                     <i className="fa-solid fa-arrow-right citysky-arrow"></i>
@@ -488,12 +488,12 @@ Thank you.`;
 
                   <span>CALL FOR BOOKING</span>
 
-                  <a href="tel:+918554819191">
-                    +91 8554819191
+                  <a href="tel:+919272112191 ">
+                    +91 9272112191 
                   </a>
 
-                  <a href="tel:+919272112191">
-                    +91 9272112191
+                  <a href="tel:+918459883515">
+                    +91 8459883515
                   </a>
 
                 </div>
@@ -587,7 +587,7 @@ Thank you.`;
 
 
             <a
-              href="tel:+918554819191"
+              href="tel:+919272112191"
               className="citysky-location-call"
             >
               <i className="fa-solid fa-phone"></i>

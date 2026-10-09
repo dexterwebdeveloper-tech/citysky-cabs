@@ -41,8 +41,8 @@ const Header = () => {
                   </li>
 
                   <li className='px-md-5 fw-bold'>
-                    <a className='text-white' href="tel:+919272112191">
-                      <i className="fas fa-phone-volume text-white"></i> +91 9272112191
+                    <a className='text-white' href="tel:+918459883515">
+                      <i className="fas fa-phone-volume text-white"></i> +91 8459883515
                     </a>
                   </li>
                     

@@ -26,7 +26,7 @@ const Footer = () => {
       </p>
    <p className="d-flex align-items-center mb-2">
         <i className="fas fa-phone-alt me-2" style={{ color: "#CF191F" }}></i>
-        <a href="tel:+919272112191 " style={{ color: "#fff", textDecoration: "none" }}>+91 9272112191 </a>
+        <a href="tel:+918459883515" style={{ color: "#fff", textDecoration: "none" }}>+91 8459883515 </a>
       </p>
       {/* Address */}
       <p className="d-fle align-items-start text-white">

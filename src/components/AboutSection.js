@@ -229,7 +229,7 @@ const AboutUs = () => {
 
                     <div className="sisf-icon">
                       <a
-                        href="tel:+918554819191"
+                        href="tel:+919272112191 "
                         aria-label="Call CitySky Cabs"
                       >
                         <i className="fa-solid fa-phone-volume"></i>
@@ -243,17 +243,17 @@ const AboutUs = () => {
                       </span>
 
                       <a
-                        href="tel:+918554819191"
+                        href="tel:+919272112191 "
                         className="sis-title sis-comman-title d-block"
                       >
-                        +91 8554819191
+                        +91 9272112191 
                       </a>
 
                       <a
-                        href="tel:+919272112191"
+                        href="tel:+919272112191 "
                         className="sis-title sis-comman-title d-block"
                       >
-                        +91 9272112191
+                        +91 9272112191 
                       </a>
 
                     </div>

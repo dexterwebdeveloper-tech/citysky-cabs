@@ -524,7 +524,7 @@ const productSchema = {
 
 <Helmet>
   <title>
-    Pune to Mahabaleshwar Cab | Mahabaleshwar Taxi & 2 Day Car Package from Pune | +91 8554819191
+    Pune to Mahabaleshwar Cab | Mahabaleshwar Taxi & 2 Day Car Package from Pune | +91 9272112191 
   </title>
 
   <meta
@@ -748,10 +748,11 @@ const productSchema = {
                                             <span>Phone Numbers</span>
                                         </header>
 
-                                        <div className="pc-list">
-                                            <a href="tel:+918554819191" className="pc-call">+91 8554819191 </a>
-                                        </div>
+                                        
 
+                                        <div className="pc-list">
+                                            <a href="tel:+919272112191 " className="pc-call">+91 9272112191 </a>
+                                        </div>
                                         <div className="pc-list">
                                             <a href="tel:+918459883515" className="pc-call">+91 8459883515 </a>
                                         </div>

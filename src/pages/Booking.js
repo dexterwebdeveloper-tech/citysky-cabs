@@ -212,7 +212,7 @@ const Booking = () => {
                 <div className="booking-actions">
 
               <a
-  href={`https://wa.me/918554819191?text=${encodeURIComponent(
+  href={`https://wa.me/919272112191 1?text=${encodeURIComponent(
     `Hello Citysky Cabs, I want to book ${car.name}. Please share the fare and availability.`
   )}`}
   target="_blank"
@@ -224,7 +224,7 @@ const Booking = () => {
 </a>
 
                  <a
-  href="tel:+918554819191"
+  href="tel:+919272112191"
   className="booking-btn call-btn"
 >
   <i className="fas fa-phone-alt"></i>
@@ -261,7 +261,7 @@ const Booking = () => {
               <div className="col-lg-4 text-lg-end">
 
                <a
-  href="tel:+918554819191"
+  href="tel:+919272112191 "
   className="booking-main-btn"
 >
   <i className="fas fa-phone-alt me-2"></i>
